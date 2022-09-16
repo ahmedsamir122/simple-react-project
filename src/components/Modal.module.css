@@ -1,0 +1,42 @@
+
+
+.overlay{
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.card-error{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50vw;
+    border-radius: 1em;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 10;
+}
+.card-error h2{
+    text-align: left;
+    color: white;
+    background-color: rgb(92, 26, 46);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1em;
+}
+.card-error p{
+    padding: 1em;
+}
+.button {
+    display: flex;
+    justify-content: right;
+    padding: 1em;
+}
+.hidden{
+    display: none;
+}
